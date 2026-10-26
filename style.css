@@ -508,7 +508,7 @@ STEPS ↓
   line-height: 1;
 }
 
-#steps.section__title {
+#steps .section__title {
   font-size: 48px;
   margin-top: 16px;
 }
@@ -1142,6 +1142,11 @@ MOBILE RESPONSIVENESS ↓
     color: #1a202c;
     line-height: 1.25;
   }
+
+  .header__customers {
+    padding-right: 64px;
+  }
+
   .header__description--para {
     font-size: 16px;
   }
@@ -1175,6 +1180,11 @@ MOBILE RESPONSIVENESS ↓
   .header__img--wrapper {
     margin-top: 48px;
   }
+
+  .header__customers {
+    padding-right: 0;
+  }
+
   h1 {
     font-size: 30px;
   }
@@ -1209,6 +1219,15 @@ MOBILE RESPONSIVENESS ↓
   .quality__description {
     margin-right: 0px;
     padding-right: 48px;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan {
+    margin-right: 0;
   }
 
   .steps__grid {
@@ -1247,6 +1266,16 @@ MOBILE RESPONSIVENESS ↓
   #pricing .row {
     margin-top: 40px;
   }
+
+  .features {
+    justify-content: center;
+  }
+
+  .feature {
+    width: auto;
+    max-width: 384px;
+  }
+
   .quality__description,
   .quality__img--wrapper,
   .steps__description,
@@ -1299,6 +1328,11 @@ MOBILE RESPONSIVENESS ↓
     margin-bottom: 80px;
   }
 
+  .header__email {
+    flex-direction: column;
+    height: auto;
+  }
+
   .header__email--input {
     position: static;
     padding: 16px 0;
@@ -1312,6 +1346,7 @@ MOBILE RESPONSIVENESS ↓
     margin-bottom: 0px;
     line-height: 1.5;
   }
+
   .header__customers--title {
     font-size: 14px;
     letter-spacing: 0.05em;
@@ -1330,6 +1365,12 @@ MOBILE RESPONSIVENESS ↓
     line-height: 1.25;
     font-size: 30px;
   }
+
+  #features .section__title,
+  #pricing .section__title {
+    font-size: 36px;
+  }
+
   #steps .section__title {
     margin: 16px 0 0 0;
   }
