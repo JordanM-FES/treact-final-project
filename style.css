@@ -24,6 +24,17 @@ h1 {
   line-height: 1.25;
 }
 
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -346,7 +357,7 @@ FEATURES ↓
   font-weight: 900;
   color: rgb(36, 62, 99);
   line-height: 1.5;
-  font-size: 24px;
+  font-size: 48px;
   margin: 16px 0;
 }
 
@@ -418,6 +429,7 @@ QUALITY WORK ↓
 
 #quality .section__title {
   line-height: 1.5;
+  font-size: 48px;
 }
 
 button {
